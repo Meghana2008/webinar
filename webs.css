@@ -1,0 +1,151 @@
+
+/* Set background color for the body */
+body {
+    background-color: #f9cbcb;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .corner-image {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 200px; /* Adjust the size as needed */
+    height: 300;
+  }
+  /* Style the header */
+  header {
+    background-color: #eab4df;
+    color: white;
+    padding: 1rem;
+  }
+  
+  /* Center align text in header */
+  .header-text {
+    text-align: center;
+  }
+  
+  /* Set text color for headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #4663c9;
+  }
+  
+  /* Set text color for paragraphs, labels, and buttons */
+  p, label, button {
+    color: #286157;
+  }
+  
+  /* Style links */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style buttons */
+  button {
+    background-color: #5042ac;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #be3d9d;
+  }
+  
+  /* Add a responsive media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0.5rem;
+    }
+    
+    .container {
+      padding: 1rem;
+    }
+    
+    #chatgpt-image {
+      max-width: 100px;
+    }
+    
+    #chatgpt2-image {
+      max-width: 100px;
+    }
+    
+    .embed-responsive-16by9 {
+      padding-bottom: 75%; /* Adjust for the smaller screen */
+    }
+    
+    button {
+      padding: 0.3rem 0.6rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

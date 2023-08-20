@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unleashing the Power of ChatGPT: Webinar on "ChatGPT: Unleashing Engineers’ Career Growth.</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="ms.css">
+</head>
+<body>
+  <header>
+    <h1 class="text-center">Unleashing the Power of ChatGPT</h1>
+    <p class="text-center">Join our webinar on Conversational AI</p>
+  </header>
+  <main class="container">
+    <section id="webinar-info" class="mb-4">
+      <h2>Webinar Information</h2>
+      <p><strong>Date and Time:</strong> 31st August, 2023 at 11 AM</p>
+      <p><strong>Duration:</strong> 50 minutes</p>
+      <p>
+        Join us for an engaging and informative webinar on "ChatGPT: Unleashing Engineers’ Career Growth."
+        In this session, we will delve into the world of conversational AI and explore how ChatGPT can help engineers boost their career growth.
+      </p>
+    </section>
+    <div>
+        <img src="C:\Users\ypgi\Desktop\logo.jpg" alt="logo" class="corner-image">
+      </div>
+    <section id="sample-video" class="mb-4">
+      <h2> Video about ChatGPT</h2>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HtAZYXlsQ7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </section>
+    <h1>Webinar Registration</h1>
+  </header>
+  <main class="container mt-4">
+    <section id="registration-form">
+      <h2>Register for the Webinar</h2>
+      <form id="registration-form" action="process_registration.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </section>
+    <section id="registration-success" style="display: none;">
+      <h2>Registration Successful</h2>
+      <p>Thank you for registering for the webinar! We look forward to seeing you.</p>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#registration-form").submit(function(event) {
+        event.preventDefault(); // Prevent form submission
+        $("#registration-form").hide(); // Hide the registration form
+        $("#registration-success").show(); // Show the success message
+      });
+    });
+  </script>
+    <section>
+      <h2>Agenda</h2>
+      <ul>
+        <li>Introduction to Conversational AI and ChatGPT.</li>
+        <li>Understanding the basics of conversational artificial intelligence.</li>
+        <li>Overview of ChatGPT and its capabilities.</li>
+        <li>How ChatGPT Works.</li>
+        <li>Applications of ChatGPT.</li>
+        <li>
+          Virtual assistants and chatbots.
+          <ul>
+            <li>Enhancing User Experience with ChatGPT.</li>
+            <li>Best practices for integrating ChatGPT into applications.</li>
+          </ul>
+        </li>
+        <li>Live demonstration of interacting with ChatGPT.</li>
+        <li>Real-world examples of organizations utilizing ChatGPT effectively.</li>
+        <li>Q&A Session.</li>
+      </ul>
+    </section>
+<section>
+    <h2>Frequently Asked Questions</h2>
+    <header class="text-center mt-3">
+        <h1>ChatGPT for Engineer's Career Growth</h1>
+      </header>
+      <main class="container mt-4">
+        <section id="qa">
+          <div class="accordion" id="accordion">
+            <!-- Question 1 -->
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Q:What is ChatGPT and how can it contribute to an engineer's career growth?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <!-- Answer 1 -->
+                  A:ChatGPT is a powerful language model that can assist engineers in various tasks, such as code completion, documentation writing, and communication. By learning to effectively use ChatGPT, engineers can save time, enhance productivity, and unlock new opportunities for innovation.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       Q: Can ChatGPT really impact an engineer's career?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <!-- Answer 1 -->
+                    A:This question explores the practical implications of integrating ChatGPT into an engineer's professional journey.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Q:How can engineers get started with learning and using ChatGPT effectively?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <!-- Answer 1 -->
+                   A: This question offers a starting point and guidance for engineers who are interested in exploring ChatGPT for career growth.
+                  </div>
+                </div>
+              </div><div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       Q: What industries or domains can benefit most from an engineer's knowledge of ChatGPT?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <!-- Answer 1 -->
+                  A: This question delves into the various sectors where ChatGPT knowledge can be especially advantageous.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       Q: What are some best practices for engineers to effectively incorporate ChatGPT into their career strategies?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <!-- Answer 1 -->
+                    A:This question provides insights into the optimal ways engineers can integrate ChatGPT into their professional development.
+                  </div>
+                </div>
+              </div>
+            <!-- Add more questions and answers using the same structure -->
+          </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</section>
+  </main>
+  <footer class="text-center">
+    <p>&copy; 2023 WebinarX</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <!-- Placeholder link for your JavaScript file -->
+  <script src="mss.js"></script>
+  <!-- Placeholder link for your Python server script -->
+<script src="ww.py"></script>
+
+</body>
+</html>
